@@ -44,7 +44,6 @@ check_winner() {
 }
 
 validate_next_move() {
-    echo "move $1 ${BOARD_ARR[$1]}\n"
     if [[ "$1" -ge 0 ]] && [[ $1 -le 8 ]] && [[ "${BOARD_ARR[$1]}" != "Y" ]] && [[ "${BOARD_ARR[$1]}" != "X" ]]
     then
         BOARD_ARR[$1]=$2
