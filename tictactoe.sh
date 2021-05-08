@@ -1,6 +1,5 @@
 #!/bin/sh
 
-BOARD_LINE=(0 1 3)
 BOARD_ARR=()
 
 reset () {
